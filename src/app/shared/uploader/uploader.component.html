@@ -1,0 +1,2 @@
+<input [(ngModel)]="file" type="file" (change)="handleFileInput($event.target.files)"/>
+<button (click)="uploadFile()"  mat-raised-button color="primary">Upload File</button>

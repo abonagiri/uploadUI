@@ -1,0 +1,6 @@
+<mat-card class="example-card">
+    <app-uploader (fileResponse)="handleFileUpload($event)"></app-uploader>
+</mat-card>
+<mat-card class="example-card">
+    <app-response-grid [dataSource]="dataSource" *ngIf="showTable"></app-response-grid>
+</mat-card>
